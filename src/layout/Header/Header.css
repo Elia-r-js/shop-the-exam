@@ -1,0 +1,26 @@
+.Header {
+    margin: 0; 
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.Header  {
+}
+
+.Header button{
+     margin: 2px;
+     padding: 7px;
+     background-color: transparent;
+     border: 0;
+    transition: 300ms;
+    border: 1px solid black;
+    border-radius: 12px;
+
+}
+
+.Header button:hover{
+    color: rgb(255, 217, 0);
+    font-size: 1.4rem;
+    border:  1px solid yellowgreen;
+}

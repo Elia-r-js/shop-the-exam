@@ -1,0 +1,111 @@
+
+  [
+    {
+      "id": 1,
+      "name": "Wireless Mechanical Keyboard",
+      "description": "Compact 75% layout with RGB lighting and blue switches.",
+      "price": 59.99,
+      "currency": "USD",
+      "inStock": true,
+      "rating": 4.5,
+      "tags": ["keyboard", "mechanical", "wireless", "RGB"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71ZRus2YNcL._AC_.jpg&f=1&nofb=1&ipt=e36f410d7845c499b6a5e6a6d445e23aa123d7f4610fd4158cd3762ae657c8ff"
+    },
+    {
+      "id": 2,
+      "name": "27-inch 4K Monitor",
+      "description": "Ultra HD IPS display with HDR support and HDMI/DisplayPort inputs.",
+      "price": 329.99,
+      "currency": "USD",
+      "inStock": true,
+      "rating": 4.8,
+      "tags": ["monitor", "4K", "IPS", "HDR"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.storagereview.com%2Fwp-content%2Fuploads%2F2021%2F09%2Fstoragereview-dell-27-4k-monitor-lifestyle-1170x780.jpg&f=1&nofb=1&ipt=b030f9db1c4dea93eb3441f8e4a2ef0524b65aeb005f690e720d96215333cf72"
+
+    },
+    {
+      "id": 3,
+      "name": "Noise-Canceling Headphones",
+      "description": "Over-ear headphones with active noise cancellation and Bluetooth 5.0.",
+      "price": 129.99,
+      "currency": "USD",
+      "inStock": false,
+      "rating": 4.2,
+      "tags": ["audio", "headphones", "wireless", "ANC"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fseo%2FStudio-Pro-Wireless-Bluetooth-Headphones-Studio-Pro-Noise-Cancelling-Headset-Music-Sport-Deep-Bass-Earphone-Hands-free-With-Mic_aab4d85e-c0f0-4f45-8024-563c2fe4141a.35763dadbeffe796ab8f14f81b7f269a.jpeg&f=1&nofb=1&ipt=f82d77fcda5a8ebdb4cfbbe7458f83e45580e00b80dbe8a063696f84194a6605"
+
+    },
+    {
+      "id": 4,
+      "name": "Gaming Mouse",
+      "description": "Ergonomic design with customizable DPI and RGB lighting.",
+      "price": 39.99,
+      "currency": "USD",
+      "inStock": true,
+      "rating": 4.3,
+      "tags": ["mouse", "gaming", "RGB", "ergonomic"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2022%2F12%2F61-f0kqym0l-_ac_sl1500_.jpg&f=1&nofb=1&ipt=faf7957d2e5fc4ed8be88000edb133ca365262682017cc15a1a1c8f6627d1ecd"
+
+    },
+    {
+      "id": 5,
+      "name": "External SSD 1TB",
+      "description": "Portable USB-C solid state drive with fast read/write speeds.",
+      "price": 149.99,
+      "currency": "USD",
+      "inStock": true,
+      "rating": 4.7,
+      "tags": ["storage", "SSD", "USB-C", "1TB"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpisces.bbystatic.com%2Fimage2%2FBestBuy_US%2Fimages%2Fproducts%2F6427%2F6427555cv11d.jpg&f=1&nofb=1&ipt=2661f22acf353068a5b7637ed949444c0b171433fdd5042c0fe233c4665caed4"
+
+    },
+    {
+      "id": 6,
+      "name": "Webcam 1080p",
+      "description": "Full HD webcam with built-in microphone for video calls and streaming.",
+      "price": 49.99,
+      "currency": "USD",
+      "inStock": false,
+      "rating": 4.0,
+      "tags": ["webcam", "video", "streaming", "1080p"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdnx.jumpseller.com%2Ftec-oh%2Fimage%2F10773600%2Fresize%2F1200%2F1200%3F1595869669&f=1&nofb=1&ipt=c6ef2a93cfb5f2a48ff5d698a9c6c5fe24400088b54a4d4b19841910124cb1cf"
+
+    },
+    {
+      "id": 7,
+      "name": "Laptop Stand",
+      "description": "Aluminum adjustable stand compatible with all laptops up to 17 inches.",
+      "price": 29.99,
+      "currency": "USD",
+      "inStock": true,
+      "rating": 4.6,
+      "tags": ["stand", "laptop", "ergonomic", "adjustable"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71M-mlEsEvL._AC_SL1500_.jpg&f=1&nofb=1&ipt=735f61ab8a489b42af62a239181031dd665bcb83a7a787abb2ab096bb492dd53"
+
+    },
+    {
+      "id": 8,
+      "name": "USB-C Hub",
+      "description": "7-in-1 USB-C hub with HDMI, USB 3.0, SD card reader, and more.",
+      "price": 44.99,
+      "currency": "USD",
+      "inStock": true,
+      "rating": 4.4,
+      "tags": ["USB-C", "hub", "connectivity", "adapter"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71qOrDDF5HL._AC_SL1500_.jpg&f=1&nofb=1&ipt=7de1afe9d9f2ddd2e4debb0b452cc5ebbcf55ea0aa60bad58c775216c82c08e8"
+
+    },
+    {
+      "id": 9,
+      "name": "Smart LED Desk Lamp",
+      "description": "Touch control LED lamp with adjustable brightness and color temperature.",
+      "price": 34.99,
+      "currency": "USD",
+      "inStock": true,
+      "rating": 4.5,
+      "tags": ["lamp", "LED", "smart", "desk"],
+      "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.webshopapp.com%2Fshops%2F256009%2Ffiles%2F354190454%2Fxiaomi-xiaomi-mi-smart-led-desk-lamp-pro.jpg&f=1&nofb=1&ipt=9ec8d8ca4ad25e96f61a1ab0c3067e06bf89479246130fd76198ffca54e2c40b"
+
+    }
+  ]
+
