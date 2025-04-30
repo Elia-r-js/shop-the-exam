@@ -1,4 +1,4 @@
 const Image = ({imgsrc}) => (
-    <img src={imgsrc} alt="nothing man just existing"/>
+    <img src={imgsrc} alt="olol"/>
 )
 export default Image
