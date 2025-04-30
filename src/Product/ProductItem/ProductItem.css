@@ -1,0 +1,42 @@
+
+.ProductItem{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto; /* Center horizontally */
+    padding: 40px 20px;
+    list-style: none;
+
+}
+
+
+.ProductItem li {
+    list-style: none;
+
+}
+.ProductItem img{
+    width: 250px;
+    height: 150px;
+    border-radius:12px ;
+    border: 1px solid black;
+    
+}
+
+.in-stock {
+    color: green;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+}
+  
+  .out-of-stock {
+    color: red;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  
+  .price{
+    font-family: 'Montserrat', sans-serif;
+  }
