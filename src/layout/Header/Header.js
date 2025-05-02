@@ -1,28 +1,31 @@
 import React from "react";
 
 import "./Header.css"
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Header = ( )=>{
+    const navigate = useNavigate();
+    const location = useLocation();
     return(<div>
 
 
         <ul className="Header">
             <li>
                 
-                <button>shop</button>
+                <button onClick={()=>navigate("/")}>shop</button>
             </li>
             <li>
-                <button>contact</button>
+                <button onClick={()=>navigate("/contact")}>contact</button>
             </li>
             <li>
-                <button>info</button>
+                <button onClick={()=>navigate("/Info")}>Info</button>
             </li>
             <li>
                 <button>aboutme</button>
             </li>
 
         </ul>
-        <h3>shop</h3>
+        <h3>{location.pathname  ==="/"? "shop" : location.pathname.slice (1)}</h3>
         </div>
     )
 }

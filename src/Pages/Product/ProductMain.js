@@ -1,10 +1,11 @@
 import React from 'react'
-import Buttons from './Buttons/Buttons'
+
+import Button from '../../components/Buttons/Button'
 export default function ProductMain({data}) {
   return (
     <div><li>{data.name}</li>
     <img src={data.img}/>
-    <Buttons/>
+    <Button title ="add to my cart" fullwidth height="48px" backgroundColor="orange"/>
 
     <span>
         {data.price}

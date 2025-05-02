@@ -1,12 +1,11 @@
 import React from "react";
-import "./ProductItem.css"
-import Buttons from "../Buttons/Buttons";
+import "./ProductItem.css";
 import ProductMain from "../ProductMain";
-
-export default function Product({data}) {
+import PRODUCT from "../../../PRODUCT.json";
+export default function Product() {
   return (
     <ul className="ProductItem"> 
-        {data.map((item)=>(
+        {PRODUCT.map((item)=>(
             <div>
             <ProductMain data ={item}/>
 

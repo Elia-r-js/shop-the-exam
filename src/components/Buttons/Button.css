@@ -1,14 +1,11 @@
 .Buttons{
     border: 1px solid black;
-    border-radius: 12px;
-    padding: 10px;
     transition: 300ms;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    width: 250px;
     text-align: center;
-    background-color: orange;
+    justify-content: center;
 }
 
 .Buttons:hover{
@@ -18,4 +15,3 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   
 }
-

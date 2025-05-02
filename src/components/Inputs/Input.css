@@ -1,0 +1,15 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width:220px;
+    gap: 2px;
+
+}
+.contact input{
+    height: 19px;
+
+}
+.contact textarea{
+    height: 150px;
+    width: 350px;
+}
