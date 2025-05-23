@@ -20,11 +20,7 @@ export default function Info() {
             console.log("user said:" ,userInput)
           }
          },[userInput]
-        
         ) 
-
-
-
 
         return (
            <div className='Info'>

@@ -21,7 +21,7 @@ const Header = ( )=>{
                 <button onClick={()=>navigate("/Info")}>Info</button>
             </li>
             <li>
-                <button>aboutme</button>
+                <button onClick={()=>navigate("/Aboutme")}>aboutme</button>
             </li>
 
         </ul>
