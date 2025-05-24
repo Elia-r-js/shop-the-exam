@@ -8,7 +8,7 @@ export default function Aboutme() {
 
   const loadPost = async () => {
     try{
-      const response = await fetch('https://run.mocky.io/v3/58f04b48-8f67-4690-88c7-9db7ce49f135')
+      const response = await fetch('https://fakestoreapi.com/products')
       const data = await response.json()
       setPosts(data)
     }catch (error) {
@@ -30,7 +30,7 @@ useEffect(() => {
       <> 
       <h1>Posts:</h1>
       <ul>
-        {posts.map((post, index)=>(
+        {posts.map((post,index)=>(
           <li key={index}>{post.title}</li>
         ))}
       </ul>
