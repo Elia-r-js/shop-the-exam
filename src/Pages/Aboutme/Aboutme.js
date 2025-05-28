@@ -38,7 +38,7 @@ const calculatePageCount=()=>{
   return parseInt(posts.length / 3);
 }
 
-console.log(pageCounts,"pagecounts")
+console.log(pageCounts,"pagecounts" )
 
   return (
       <> 
