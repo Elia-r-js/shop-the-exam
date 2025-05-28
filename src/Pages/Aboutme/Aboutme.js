@@ -1,6 +1,10 @@
 import React,{useEffect, useState} from 'react'
+import Button from '../../components/Buttons/Button'
+import "./Aboutme.css"
 export default function Aboutme() {
   const [posts, setPosts] = useState([])
+  const [pageCounts, setpageCounts] = useState(0)
+
 
 
 
@@ -22,18 +26,44 @@ useEffect(() => {
 }, []); // <- only once when the component first appears on the screen
 
 
+useEffect(() => {
+  setpageCounts(calculatePageCount()); // <- you call the function YOU defined above
+}, [posts]);
 
 
-console.log("hello")
+const calculatePageCount=()=>{
+  if(posts.length% 3>0){
+    return parseInt(posts.length/ 3+1);
+  } else
+  return parseInt(posts.length / 3);
+}
+
+console.log(pageCounts,"pagecounts")
 
   return (
       <> 
       <h1>Posts:</h1>
       <ul>
-        {posts.map((post,index)=>(
+        {posts.slice(0,3).map((post,index)=>(
           <li key={index}>{post.title}</li>
         ))}
       </ul>
+      <div className='pagination'>
+        <ul>
+          <li>
+         <Button title={1} width={"50px"} height={"50px"} backgroundColor={"#2563eb"} borderRadius={"100%"} listStyle={"none"} display={"flex"} />
+        </li>
+                <li>
+         <Button title={2} width={"50px"} height={"50px"} backgroundColor={"#2563eb"} borderRadius={"100%"} listStyle={"none"} display={"flex"}/>
+        </li>
+                <li>
+         <Button title={3} width={"50px"} height={"50px"} backgroundColor={"#2563eb"} borderRadius={"100%"} listStyle={"none"} display={"flex"}/>
+        </li>
+                <li>
+         <Button title={4} width={"50px"} height={"50px"} backgroundColor={"#2563eb"} borderRadius={"100%"} listStyle={"none"} display={"flex"}/>
+        </li>
+        </ul>
+      </div>
     </>
   );
 }
