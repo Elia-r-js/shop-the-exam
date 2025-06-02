@@ -1,5 +1,23 @@
-.pagination ul{
-    list-style: none;
-    display: flex;
-    gap: 3px;
+.pagination ul {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  position: relative;
+}
+
+.pagination li.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0.6px; /* a little below the button */
+  left: 50%;
+  width: 50%;
+  height: 2px;
+  background-color: #ea580c; /* burnt orange */
+  border-radius: 2px;
+  transform: translateX(-50%);
 }

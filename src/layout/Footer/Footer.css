@@ -1,1 +1,13 @@
-.Footer{border-top:1px solid black ;}
+.Footer {
+  display: flex;
+  justify-content: space-between; /* For left and right alignment */
+  align-items: center;
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
+.FooterButton {
+  display: flex;
+  gap: 5px; /* space between the buttons */
+  justify-content: flex-end;
+}
