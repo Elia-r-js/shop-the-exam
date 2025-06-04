@@ -1,11 +1,14 @@
-import React from 'react'
+import React,{useContext} from 'react'
 
 import Button from '../../components/Buttons/Button'
+import ThemeContext from '../../context/ThemeContext'
 export default function ProductMain({data}) {
+  const ThemeValue=useContext(ThemeContext)
+  console.log("ThemeValue" ,ThemeValue)
   return (
     <div><li>{data.name}</li>
     <img src={data.img}/>
-    <Button title ="add to my cart" fullwidth height="48px" backgroundColor="orange"/>
+    <Button title ="add to my cart" fullwidth height="48px" backgroundColor= {ThemeValue.theme.color}/>
 
     <span>
         {data.price}
