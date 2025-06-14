@@ -28,8 +28,8 @@ export default function Info() {
         
         this site was develope by elia and i am proud that i make it this far
         </p>
-        <Button onclick={alertMaker} title="like it" backgroundColor="green" width="60px" height="25px" borderRadius="5px" type="submit"/>
-        <Button onclick={promtHandler} title="dislike"  backgroundColor="red" width="60px" height="25px" borderRadius="5px" type="submit"/>
+        <Button handleClick={alertMaker} title="like it" backgroundColor="green" width="60px" height="25px" borderRadius="5px" type="submit"/>
+        <Button handleClick={promtHandler} title="dislike"  backgroundColor="red" width="60px" height="25px" borderRadius="5px" type="submit"/>
 
             {userInput &&(
               <p style={{marginTop:"10px",color: "red"}}>
